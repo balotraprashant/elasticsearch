@@ -1,7 +1,7 @@
 package com.developerclan.elasticsearch.service.impl;
 
 import com.developerclan.elasticsearch.dto.ProductDto;
-import com.developerclan.elasticsearch.model.Product;
+import com.developerclan.elasticsearch.entity.Product;
 import com.developerclan.elasticsearch.repository.ProductRepository;
 import com.developerclan.elasticsearch.service.ProductService;
 import org.springframework.beans.BeanUtils;

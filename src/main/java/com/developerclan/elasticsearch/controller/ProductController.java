@@ -1,10 +1,9 @@
 package com.developerclan.elasticsearch.controller;
 
 import com.developerclan.elasticsearch.dto.ProductDto;
-import com.developerclan.elasticsearch.model.Product;
+import com.developerclan.elasticsearch.entity.Product;
 import com.developerclan.elasticsearch.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
