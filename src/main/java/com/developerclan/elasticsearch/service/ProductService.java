@@ -1,7 +1,7 @@
 package com.developerclan.elasticsearch.service;
 
 import com.developerclan.elasticsearch.dto.ProductDto;
-import com.developerclan.elasticsearch.model.Product;
+import com.developerclan.elasticsearch.entity.Product;
 
 public interface ProductService {
     Iterable<Product> getAllProducts();

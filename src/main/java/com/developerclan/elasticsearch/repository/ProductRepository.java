@@ -1,6 +1,6 @@
 package com.developerclan.elasticsearch.repository;
 
-import com.developerclan.elasticsearch.model.Product;
+import com.developerclan.elasticsearch.entity.Product;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 
